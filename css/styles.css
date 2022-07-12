@@ -1,0 +1,143 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;  
+}
+
+h1 {
+    margin: 0;
+    padding-top: 130px;
+    font-family: 'Splash', cursive;
+    font-weight: normal;
+    font-size: 60px;
+    color: #66BFBF;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #0B959A;
+}
+
+h6 {
+    color: #EAF6F6;
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 20px;
+}
+
+p {
+    color: #40514E;
+}
+
+hr {
+    border: dotted;
+    border-width: 5px 0 0 0;
+    width: 50px;
+    color: #EAF6F6;
+    margin: 50px auto 50px auto;
+
+}
+
+span {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/******Class Top******/
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+
+}
+
+.cloud-1 {
+    position: absolute;
+    right: 20%;
+    top: 0px;
+    height: 20%;
+}
+
+.mountain {
+    width: 60%;
+}
+
+/******Class middle******/
+
+.middle-container {
+    width: 50%;
+    margin: auto;
+}
+
+.perfil-img {
+    margin: 60px 0 20px 0;
+}
+
+.middle-container-lorem-1 {
+    text-align: left;
+    margin: 50px 0 100px 0;
+}
+
+.middle-container-programming-img {
+    height: 150px;
+    margin: 0 30px 30px 0;
+}
+
+.middle-container-lorem-2 {
+    text-align: left;
+    margin: 100px 0 100px 0;
+}
+
+.middle-container-music-note-img {
+    height: 150px;
+    margin: 0 0 30px 30px;
+}
+
+/******Class buttom******/
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #66bfbf 5%, #0b959a 100%);
+	background-color:#66bfbf;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+	font-size:25px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+    margin-top: 40px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0b959a 5%, #66bfbf 100%);
+	background-color:#0b959a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/******Class footer******/
+
+
+.footer-container {
+    background-color: #66BFBF;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer-container-github {
+    color: #11999E;
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+}
